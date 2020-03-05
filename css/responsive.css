@@ -1,0 +1,16 @@
+@media (max-width: 1023px) {
+  .navbar-header .logo-img-sm {
+    display: block;
+  }
+  .navbar-header .logo-img {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .navbar-header .logo-img-sm {
+    display: none;
+  }
+  .navbar-header .logo-img {
+    display: block;
+  }
+}
